@@ -1,8 +1,30 @@
 aid: in-focus-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/in-focus-systems.png
 name: In Focus Systems
-description: In Focus Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  In Focus Systems, Inc. (later InFocus Corporation, and today marketed as
+  InFocus) is an audiovisual technology company founded in 1986 in Oregon by
+  Steve Hix and Paul Gulick, both formerly of Tektronix. The company pioneered
+  LCD projection panels and is credited with inventing the digital projector,
+  going public on NASDAQ (ticker INFS) in December 1990. It grew into a leading
+  maker of DLP and LCD projectors, interactive flat-panel displays, DVLED video
+  walls, and collaboration hardware for business, education, installation, and
+  home markets. In Focus Systems was an early Battery Ventures investment (since
+  exited). The InFocus business was acquired by Image Holdings Corp. in 2009 and
+  operates today as a privately held subsidiary headquartered in the Portland,
+  Oregon area. It is a hardware and audiovisual solutions company and does not
+  publish a public developer API, SDKs, or a developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/in-focus-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,46 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: exited
+x-status-note: >-
+  Battery Ventures early investment, since exited. InFocus acquired by Image
+  Holdings Corp. in 2009. No public developer/API surface; enrichment is
+  identity-only.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Audiovisual
+- Projectors
+- Displays
+- Hardware
+- Collaboration
+- Consumer Electronics
+- Education Technology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/in-focus-systems-domain-security.yml
+- type: Website
+  url: https://www.infocus.com/
+- type: About
+  url: https://www.infocus.com/about-us/
+- type: Support
+  url: https://www.infocus.com/support/
+- type: Blog
+  url: https://www.infocus.com/press/
+- type: TermsOfService
+  url: https://www.infocus.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.infocus.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
