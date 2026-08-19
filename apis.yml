@@ -37,7 +37,7 @@ x-status-note: >-
   Battery Ventures early investment, since exited. InFocus acquired by Image
   Holdings Corp. in 2009. No public developer/API surface; enrichment is
   identity-only.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
